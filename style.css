@@ -1,0 +1,143 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  border: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(219, 218, 218);
+}
+
+.navbar .navButton {
+  background-color: transparent;
+  color: rgb(122, 122, 122);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navbar .buttonsCenter {
+  display: flex;
+  justify-content: center;
+  margin-left: 23px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.navbar .buttonsCenter .buttonEnvelope {
+  background-color: rgb(219, 218, 218);
+}
+
+.navbar .buttonTwitter {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -70px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.navbar .fa-envelope {
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgb(26, 26, 26);
+}
+
+.navbar .buttonTwitter .fa-twitter {
+  font-size: 25px;
+  color: rgb(163, 163, 163);
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.columns .columnOne {
+  background-color: rgb(25, 146, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns .columnTwo {
+  background-color: rgba(46, 20, 20, 0.609);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns .columnThree {
+  background-color: rgb(236, 151, 126);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns .columnFour {
+  background-color: rgba(25, 64, 155, 0.876);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns .columnFive {
+  background-color: rgb(219, 77, 64);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns .columnSix {
+  background-color: rgba(106, 153, 147, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns .columnSize {
+  width: 16.666667%;
+}
+
+.columns .titles {
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.columns .date {
+  margin-left: 20px;
+  color: #fff;
+  margin-top: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.columns .text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.columns .buttonRead {
+  color: #fff;
+  background-color: transparent;
+  margin-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
